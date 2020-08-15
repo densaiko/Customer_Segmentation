@@ -15,4 +15,6 @@ The data is collected from UCI Machine Learning entitled "Online Retail II Data 
 # Exploratory Data Analyses (EDA)
 I create several visualizations that retrieve information about the habit of transaction and the habit of customers
 
-<img src="images/map_transaction.png" width="100" >
+<img src="images/map_transaction.png" width="1000" > <img src="images/overall_transaction.png" width="1000" >
+
+<img src="images/range_price_transaction.png" width="1000" >
