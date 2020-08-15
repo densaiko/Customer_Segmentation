@@ -32,5 +32,8 @@ The result from all models that I used and evaluate it using learning curves, I 
 Finally, I use the train data which is the two last months and test it using the VotingClassifier and I found 97.92% of customers are awarded the right classes.
 
 # Code and Resources Used
-**Python Version: ** 3.7.6
-**Packages: ** Pandas, Numpy, Matplotlib, Plotly, Scikit-learn, WordCloud
+**Python Version:** 3.7.6
+**Packages:** Pandas, Numpy, Matplotlib, Plotly, Scikit-learn, WordCloud
+**Dataset:** [UCI Machine Learning](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II)
+**Learning Curve Articles:** [Machine Learning Mastery](https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/)
+**Customer Segmentation Article:** [FabienDaniel - Customer Segmentation](https://machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/)
