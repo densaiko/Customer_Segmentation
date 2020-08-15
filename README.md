@@ -14,3 +14,4 @@ The data is collected from UCI Machine Learning entitled "Online Retail II Data 
 
 # Exploratory Data Analyses (EDA)
 I create several visualizations that retrieve information about the habit of transaction and the habit of customers
+
