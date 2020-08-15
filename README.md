@@ -22,4 +22,15 @@ I create several visualizations that retrieve information about the habit of tra
 # Model Building
 Firstly, I use Priciple Component Analyses (PCA) to distinguish the object clearly. I also separate the train data which is the first 10 months in dataframe and the test data which is the last 2 months in dataframe.
 
-I use `Scikit Learn` library
+I use `Scikit Learn` library and several models and evaluate it using learning curves. I tried Logistic Regression, K-Neighbors Classifier, Support Vector Machine Classifier, Random Forest, Decision Tree, and Gradient Boosting Classifier.
+
+The result from all models that I used and evaluate it using learning curves, I used:
+- Logistic Regression, K-Neighbors Classifier, and Gradient Boosting Classfier.
+- All this three models are combined into one prediction using VotingClassifier and get training score (92.74%) and testing score (90.23%)
+
+# Testing the Prediction
+Finally, I use the train data which is the two last months and test it using the VotingClassifier and I found 97.92% of customers are awarded the right classes.
+
+# Code and Resources Used
+**Python Version: ** 3.7.6
+**Packages: ** Pandas, Numpy, Matplotlib, Plotly, Scikit-learn, WordCloud
