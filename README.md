@@ -15,6 +15,11 @@ The data is collected from UCI Machine Learning entitled "Online Retail II Data 
 # Exploratory Data Analyses (EDA)
 I create several visualizations that retrieve information about the habit of transaction and the habit of customers
 
-<img src="images/map_transaction.png" width="1000" > <img src="images/overall_transaction.png" width="1000" >
+<img src="images/map_transaction.png" width="450" > <img src="images/overall_transaction.png" width="450" >
 
-<img src="images/range_price_transaction.png" width="1000" >
+<img src="images/range_price_transaction.png" width="400" >
+
+# Model Building
+Firstly, I use Priciple Component Analyses (PCA) to distinguish the object clearly. I also separate the train data which is the first 10 months in dataframe and the test data which is the last 2 months in dataframe.
+
+I use `Scikit Learn` library
